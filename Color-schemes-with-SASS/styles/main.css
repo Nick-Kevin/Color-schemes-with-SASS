@@ -1,0 +1,40 @@
+.red body {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+.red h1 {
+  color: #FF0000;
+}
+.red select {
+  width: 10vw;
+  background-color: #FF0000;
+  color: white;
+}
+
+.green body {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+.green h1 {
+  color: #00FF00;
+}
+.green select {
+  width: 10vw;
+  background-color: #00FF00;
+  color: white;
+}
+
+.blue body {
+  background-color: #FFFF00;
+  color: #000000;
+}
+.blue h1 {
+  color: #0000FF;
+}
+.blue select {
+  width: 10vw;
+  background-color: #0000FF;
+  color: white;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,37 @@
+$main-color: #FF0000;
+$background-color: #FFFFFF;
+$text-color: #000000;
+
+@mixin color-scheme($main-color, $background-color, $text-color){
+	body {
+	background-color: $background-color;
+	color: $text-color;
+	}
+
+	h1 {
+		color: $main-color;
+	}
+}
+
+@mixin select-color($background-color) {
+	select {
+		width: 10vw;
+		background-color: $background-color;
+		color: white;
+	}
+}
+
+.red {
+	@include color-scheme(#FF0000, #FFFFFF, #000000); 
+	@include select-color(#FF0000);
+}
+
+.green {
+	@include color-scheme(#00FF00, #000000, #FFFFFF);
+	@include select-color(#00FF00);
+}
+
+.blue {
+	@include color-scheme(#0000FF, #FFFF00, #000000);	
+	@include select-color(#0000FF);
+}
