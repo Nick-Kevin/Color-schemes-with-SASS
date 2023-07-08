@@ -2,6 +2,10 @@ $main-color: #FF0000;
 $background-color: #FFFFFF;
 $text-color: #000000;
 
+@mixin font-family($font) {
+	font-family: $font;
+}
+
 @mixin d-flex($justify-content, $align-items) {
 	display: flex;
 	justify-content: $justify-content;
@@ -10,9 +14,10 @@ $text-color: #000000;
 
 @mixin color-scheme($main-color, $body-background-color, $text-color, $main-content-bg){
 	body {
-	margin: 0;
-	background-color: $body-background-color;
-	color: $text-color;
+		margin: 0;
+		background-color: $body-background-color;
+		color: $text-color;
+		@include font-family('Trebuchet MS');
 	}
 
 	h1 {

@@ -2,6 +2,7 @@
   margin: 0;
   background-color: #FFFFFF;
   color: #000000;
+  font-family: "Trebuchet MS";
 }
 .red h1 {
   color: #FF0000;
@@ -30,6 +31,7 @@
   margin: 0;
   background-color: #000000;
   color: #FFFFFF;
+  font-family: "Trebuchet MS";
 }
 .green h1 {
   color: #00FF00;
@@ -58,6 +60,7 @@
   margin: 0;
   background-color: #FFFF00;
   color: #000000;
+  font-family: "Trebuchet MS";
 }
 .blue h1 {
   color: #0000FF;
