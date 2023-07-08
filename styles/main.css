@@ -1,9 +1,16 @@
 .red body {
+  margin: 0;
   background-color: #FFFFFF;
   color: #000000;
 }
 .red h1 {
   color: #FF0000;
+}
+.red .content {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .red select {
   width: 10vw;
@@ -12,11 +19,18 @@
 }
 
 .green body {
+  margin: 0;
   background-color: #000000;
   color: #FFFFFF;
 }
 .green h1 {
   color: #00FF00;
+}
+.green .content {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .green select {
   width: 10vw;
@@ -25,11 +39,18 @@
 }
 
 .blue body {
+  margin: 0;
   background-color: #FFFF00;
   color: #000000;
 }
 .blue h1 {
   color: #0000FF;
+}
+.blue .content {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .blue select {
   width: 10vw;

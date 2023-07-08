@@ -2,14 +2,26 @@ $main-color: #FF0000;
 $background-color: #FFFFFF;
 $text-color: #000000;
 
+@mixin d-flex($justify-content, $align-items) {
+	display: flex;
+	justify-content: $justify-content;
+	align-items: $align-items;
+}
+
 @mixin color-scheme($main-color, $background-color, $text-color){
 	body {
+	margin: 0;
 	background-color: $background-color;
 	color: $text-color;
 	}
 
 	h1 {
 		color: $main-color;
+	}
+
+	.content {
+		height: 100vh;
+		@include d-flex(center, center);
 	}
 }
 
