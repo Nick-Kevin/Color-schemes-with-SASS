@@ -35,29 +35,29 @@ $text-color: #000000;
 	}
 }
 
-@mixin select-color($background-color) {
+@mixin select-color($background-color, $font-color) {
 	select {
-		width: calc(8vw + 40px);
+		width: calc(8.7vw + 85px);
 		height: calc(2vh + 20px);
 		border: none;
 		border-radius: 5px;
 		background-color: $background-color;
-		color: white;
-		font-size: 1.25em;
+		color: $font-color;
+		font-size: calc(0.5em + 1vw);
 	}
 }
 
 .red {
-	@include color-scheme(#FF0000, #FFFFFF, #000000, #D9D9D9); 
-	@include select-color(#FF0000);
+	@include color-scheme(#FF0000, #FF0000, #000000, white); 
+	@include select-color(#FF0000, white);
 }
 
 .green {
-	@include color-scheme(#00FF00, #000000, #FFFFFF, #D9D9D9);
-	@include select-color(#00FF00);
+	@include color-scheme(#00FF00, #00FF00, #FFFFFF, brown);
+	@include select-color(#00FF00, black);
 }
 
 .blue {
-	@include color-scheme(#0000FF, #FFFF00, #000000, #D9D9D9);	
-	@include select-color(#0000FF);
+	@include color-scheme(#0000FF, #0000FF, #000000, lightgreen);	
+	@include select-color(#0000FF, white);
 }

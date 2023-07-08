@@ -1,6 +1,6 @@
 .red body {
   margin: 0;
-  background-color: #FFFFFF;
+  background-color: #FF0000;
   color: #000000;
   font-family: "Trebuchet MS";
 }
@@ -15,21 +15,21 @@
 }
 .red .main-content {
   padding: calc(4vw + 50px);
-  background-color: #D9D9D9;
+  background-color: white;
 }
 .red select {
-  width: calc(8vw + 40px);
+  width: calc(8.7vw + 85px);
   height: calc(2vh + 20px);
   border: none;
   border-radius: 5px;
   background-color: #FF0000;
   color: white;
-  font-size: 1.25em;
+  font-size: calc(0.5em + 1vw);
 }
 
 .green body {
   margin: 0;
-  background-color: #000000;
+  background-color: #00FF00;
   color: #FFFFFF;
   font-family: "Trebuchet MS";
 }
@@ -44,21 +44,21 @@
 }
 .green .main-content {
   padding: calc(4vw + 50px);
-  background-color: #D9D9D9;
+  background-color: brown;
 }
 .green select {
-  width: calc(8vw + 40px);
+  width: calc(8.7vw + 85px);
   height: calc(2vh + 20px);
   border: none;
   border-radius: 5px;
   background-color: #00FF00;
-  color: white;
-  font-size: 1.25em;
+  color: black;
+  font-size: calc(0.5em + 1vw);
 }
 
 .blue body {
   margin: 0;
-  background-color: #FFFF00;
+  background-color: #0000FF;
   color: #000000;
   font-family: "Trebuchet MS";
 }
@@ -73,16 +73,16 @@
 }
 .blue .main-content {
   padding: calc(4vw + 50px);
-  background-color: #D9D9D9;
+  background-color: lightgreen;
 }
 .blue select {
-  width: calc(8vw + 40px);
+  width: calc(8.7vw + 85px);
   height: calc(2vh + 20px);
   border: none;
   border-radius: 5px;
   background-color: #0000FF;
   color: white;
-  font-size: 1.25em;
+  font-size: calc(0.5em + 1vw);
 }
 
 /*# sourceMappingURL=main.css.map */
