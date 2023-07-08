@@ -33,8 +33,12 @@ $text-color: #000000;
 @mixin select-color($background-color) {
 	select {
 		width: calc(8vw + 40px);
+		height: calc(2vh + 20px);
+		border: none;
+		border-radius: 5px;
 		background-color: $background-color;
 		color: white;
+		font-size: 1.25em;
 	}
 }
 
