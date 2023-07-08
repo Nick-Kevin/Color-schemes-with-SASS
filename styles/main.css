@@ -12,8 +12,12 @@
   justify-content: center;
   align-items: center;
 }
+.red .main-content {
+  padding: calc(4vw + 50px);
+  background-color: #D9D9D9;
+}
 .red select {
-  width: 10vw;
+  width: calc(8vw + 40px);
   background-color: #FF0000;
   color: white;
 }
@@ -32,8 +36,12 @@
   justify-content: center;
   align-items: center;
 }
+.green .main-content {
+  padding: calc(4vw + 50px);
+  background-color: #D9D9D9;
+}
 .green select {
-  width: 10vw;
+  width: calc(8vw + 40px);
   background-color: #00FF00;
   color: white;
 }
@@ -52,8 +60,12 @@
   justify-content: center;
   align-items: center;
 }
+.blue .main-content {
+  padding: calc(4vw + 50px);
+  background-color: #D9D9D9;
+}
 .blue select {
-  width: 10vw;
+  width: calc(8vw + 40px);
   background-color: #0000FF;
   color: white;
 }
