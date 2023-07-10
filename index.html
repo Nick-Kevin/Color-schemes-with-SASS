@@ -2,6 +2,10 @@
 <html>
   <head>
     <link rel="stylesheet" href="styles/main.css">
+    <script>
+      // Set the default value for the select element
+      sessionStorage.setItem('selectedColorScheme', 'red');
+    </script>
   </head>
   <body>
     <div class="content">
@@ -16,5 +20,20 @@
       </div>
     </div>
     <script src="js/app.js"></script>
+    <script>
+      // Restore the selected option on page load
+      document.addEventListener('DOMContentLoaded', function() {
+        var colorSchemeSelect = document.getElementById('color-scheme');
+        var selectedColorScheme = sessionStorage.getItem('selectedColorScheme');
+        if (selectedColorScheme) {
+          colorSchemeSelect.value = selectedColorScheme;
+        }
+      });
+
+      // Save the selected option to session storage when it changes
+      document.getElementById('color-scheme').addEventListener('change', function() {
+        var selectedColorScheme = this.value;
+        sessionStorage.setItem('selectedColorScheme', selectedColorScheme);
+      });    </script>
   </body>
 </html>
