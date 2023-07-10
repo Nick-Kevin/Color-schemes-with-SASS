@@ -85,4 +85,33 @@
   font-size: calc(0.5em + 1vw);
 }
 
+.black-pink body {
+  margin: 0;
+  background-color: pink;
+  color: white;
+  font-family: "Trebuchet MS";
+}
+.black-pink h1 {
+  color: pink;
+}
+.black-pink .content {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.black-pink .main-content {
+  padding: calc(4vw + 50px);
+  background-color: black;
+}
+.black-pink select {
+  width: calc(8.7vw + 85px);
+  height: calc(2vh + 20px);
+  border: none;
+  border-radius: 5px;
+  background-color: pink;
+  color: black;
+  font-size: calc(0.5em + 1vw);
+}
+
 /*# sourceMappingURL=main.css.map */

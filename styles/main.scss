@@ -61,3 +61,8 @@ $text-color: #000000;
 	@include color-scheme(#0000FF, #0000FF, #000000, lightgreen);	
 	@include select-color(#0000FF, white);
 }
+
+.black-pink {
+	@include color-scheme(pink, pink, white, black);	
+	@include select-color(pink, black);
+}
