@@ -143,4 +143,33 @@
   font-size: calc(0.5em + 1vw);
 }
 
+.darkgray body {
+  margin: 0;
+  background-color: chartreuse;
+  color: white;
+  font-family: "Trebuchet MS";
+}
+.darkgray h1 {
+  color: chartreuse;
+}
+.darkgray .content {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.darkgray .main-content {
+  padding: calc(4vw + 50px);
+  background-color: darkblue;
+}
+.darkgray select {
+  width: calc(8.7vw + 85px);
+  height: calc(2vh + 20px);
+  border: none;
+  border-radius: 5px;
+  background-color: chartreuse;
+  color: black;
+  font-size: calc(0.5em + 1vw);
+}
+
 /*# sourceMappingURL=main.css.map */
