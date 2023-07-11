@@ -72,7 +72,12 @@ $text-color: #000000;
 	@include select-color(purple, white);
 }
 
-.darkgray {
+.chartreuse {
 	@include color-scheme(chartreuse, chartreuse, white, darkblue);
 	@include select-color(chartreuse, black);
+}
+
+.aqua {
+	@include color-scheme(aqua, aqua, white, darkred);
+	@include select-color(aqua, black);
 }

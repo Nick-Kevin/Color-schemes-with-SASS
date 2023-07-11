@@ -143,31 +143,60 @@
   font-size: calc(0.5em + 1vw);
 }
 
-.darkgray body {
+.chartreuse body {
   margin: 0;
   background-color: chartreuse;
   color: white;
   font-family: "Trebuchet MS";
 }
-.darkgray h1 {
+.chartreuse h1 {
   color: chartreuse;
 }
-.darkgray .content {
+.chartreuse .content {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.darkgray .main-content {
+.chartreuse .main-content {
   padding: calc(4vw + 50px);
   background-color: darkblue;
 }
-.darkgray select {
+.chartreuse select {
   width: calc(8.7vw + 85px);
   height: calc(2vh + 20px);
   border: none;
   border-radius: 5px;
   background-color: chartreuse;
+  color: black;
+  font-size: calc(0.5em + 1vw);
+}
+
+.aqua body {
+  margin: 0;
+  background-color: aqua;
+  color: white;
+  font-family: "Trebuchet MS";
+}
+.aqua h1 {
+  color: aqua;
+}
+.aqua .content {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aqua .main-content {
+  padding: calc(4vw + 50px);
+  background-color: darkred;
+}
+.aqua select {
+  width: calc(8.7vw + 85px);
+  height: calc(2vh + 20px);
+  border: none;
+  border-radius: 5px;
+  background-color: aqua;
   color: black;
   font-size: calc(0.5em + 1vw);
 }
