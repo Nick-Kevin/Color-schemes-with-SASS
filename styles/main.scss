@@ -66,3 +66,8 @@ $text-color: #000000;
 	@include color-scheme(pink, pink, white, black);	
 	@include select-color(pink, black);
 }
+
+.purple {
+	@include color-scheme(purple, purple, black, orange);
+	@include select-color(purple, white);
+}

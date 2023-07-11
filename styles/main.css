@@ -114,4 +114,33 @@
   font-size: calc(0.5em + 1vw);
 }
 
+.purple body {
+  margin: 0;
+  background-color: purple;
+  color: black;
+  font-family: "Trebuchet MS";
+}
+.purple h1 {
+  color: purple;
+}
+.purple .content {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.purple .main-content {
+  padding: calc(4vw + 50px);
+  background-color: orange;
+}
+.purple select {
+  width: calc(8.7vw + 85px);
+  height: calc(2vh + 20px);
+  border: none;
+  border-radius: 5px;
+  background-color: purple;
+  color: white;
+  font-size: calc(0.5em + 1vw);
+}
+
 /*# sourceMappingURL=main.css.map */
