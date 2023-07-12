@@ -34,3 +34,12 @@ To make it easier to switch between color schemes, I can create a mixin that tak
 		}
 	}
 ```
+<br>
+
+ I apply the `color-scheme` mixin with different color values to create multiple color schemes. Here's an example:
+ ```scss
+ 	.black-pink {
+			@include color-scheme(pink, pink, white, black);	
+			@include select-color(pink, black);
+		}
+ ```
