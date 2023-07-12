@@ -34,7 +34,6 @@ To make it easier to switch between color schemes, I can create a mixin that tak
 		}
 	}
 ```
-<br>
 
  I apply the `color-scheme` mixin with different color values to create multiple color schemes. Here's an example:
  ```scss
@@ -43,3 +42,6 @@ To make it easier to switch between color schemes, I can create a mixin that tak
 			@include select-color(pink, black);
 		}
  ```
+<br><br>
+
+ ## Don't forget to give a star ⭐ by pressing the start button if you like this exercise. 👋
