@@ -9,7 +9,7 @@ I create a stylesheet for a website with different color schemes using variables
 </p>
 
 # 🧷 Some details in SASS file
-To make it easier to switch between color schemes, I can create a mixin that takes arguments for the different color values. I add this mixin to the main.scss file:
+To make it easier to switch between color schemes, I create a mixin that takes arguments for the different color values. I add this mixin to the main.scss file:
 ```scss
 @mixin color-scheme($main-color, $body-background-color, $text-color, $main-content-bg){
 	body {
